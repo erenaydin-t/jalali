@@ -1,0 +1,38 @@
+{
+  "doctype": "DocType",
+  "name": "Jalali Settings",
+  "module": "Jalali Support",
+  "custom": 0,
+  "beta": 0,
+  "istable": 0,
+  "issingle": 1,
+  "allow_rename": 0,
+  "editable_grid": 0,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "enable_jalali",
+      "fieldtype": "Check",
+      "label": "Enable Jalali Calendar",
+      "default": "1"
+    },
+    {
+      "fieldname": "default_calendar",
+      "fieldtype": "Select",
+      "label": "Default Calendar",
+      "options": "\nGregorian\nJalali",
+      "default": "Jalali"
+    },
+    {
+      "fieldname": "allow_user_override",
+      "fieldtype": "Check",
+      "label": "Allow Per-User Override",
+      "default": "1"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager"
+    }
+  ]
+}

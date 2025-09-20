@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Frappe / bench generated assets
+*.pyc
+assets/
+node_modules/
+public/dist/
+
+# Bench logs and backups
+logs/
+*.log
+sites/*/private/backups/
+
+# IDE helpers
+.idea/
+.vscode/
+*.code-workspace
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*~

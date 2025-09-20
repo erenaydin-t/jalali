@@ -1,0 +1,2 @@
+recursive-include jalali_support *.py *.json *.js *.css
+include README.md
